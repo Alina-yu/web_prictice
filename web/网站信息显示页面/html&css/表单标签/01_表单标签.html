@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+  <form action="#" method="get">
+    带星号的必填：<input type = hidden name = "id" value= "" ><br/>
+    <font color="#a52a2a">*</font>用户名：<input type="text" name = "username" placeholder="请输入用户名" maxlength="5" required="required"/></br>
+    <font color="#a52a2a">*</font>密 &nbsp 码：<input type="password" name = "password" required = required/><br/>
+    <font color="#a52a2a">*</font>确认密码： <input type="password" name = "repasswoed" required = required/><br/>
+    性 &nbsp 别： <input type="radio" name = "sex" value="男"/> 男
+          <input type="radio" name = "sex" name = "女" checked="checked"/>女<br/>
+    爱 &nbsp 好：<input type="checkbox" name = "hobby" value="钓鱼"/> 钓鱼
+              <input type="checkbox" name = "hobby" value ="王者荣耀"/> 王者荣耀
+              <input type="checkbox" name = "hobby" value = "吃鸡"/> 吃鸡<br/>
+    头像：<input type="file" name="file"/><br/>
+    籍贯：<select name = "province">
+      <option >--请选择--</option>
+      <option value = "北京" selected="selected" >北京</option>
+      <option  value = "shanghai">上海</option>
+      <option value="guangzhou">广州</option>
+      <option  value = shenzhen>深圳</option>
+        </select><br/><br/><br/>
+    自我介绍：<textarea name="callme"></textarea><br/>
+    提交按钮：<input type="submit" value="注册"/><br/>
+    重置按钮：<input type="reset" value="重置"/><br/>
+
+  </form>
+</body>
+</html>
